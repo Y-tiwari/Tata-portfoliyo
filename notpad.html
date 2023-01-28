@@ -1,0 +1,140 @@
+<html>
+    <head>
+     <title>portfoliyo</title>
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+
+        .icone{
+            position: relative;
+            width: 85%;
+            height: 68px;
+          
+        }
+
+        
+        
+        nav{
+            display: flex;
+            width: 51%;
+            margin: -10px;
+            padding: 16px 0;
+            padding-left: 55%;
+            align-items: center;
+            justify-content: space-between;
+        }  
+        
+        nav ul  li{
+            display: inline-flex;
+            list-style:none ;
+            margin: 11px 20px;
+        }
+        
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover{
+            color: red;
+        }
+        #head {
+          margin-left: 8%;
+          margin-top: 15%;
+          font-size: large;
+        }
+        
+          #head h1{
+            font-size:165% ;
+            color:black ;
+            margin-bottom: 28px;
+          }
+        
+          span{
+            color: orange;
+          }
+        
+          #head p{
+              color: rgb(95, 95, 95);
+              width: -23;
+              line-height: 28px;
+              margin-left: -8%;
+              margin-top: 30%;
+              font-size: 85%;
+          }
+          #head a{
+            background: black;
+            padding: 10px 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: antiquewhite;
+            display: inline-block;
+            margin: 30px 0;
+            border-radius: 5px;
+          }
+          .image{
+            width: 35%;
+          height: 120%;
+          position: absolute;
+           bottom: -262px;
+         right: 100px;
+
+          }
+        
+          .image img{
+            height: 100%;
+            width: 115%;
+            position: absolute;
+            left: -2%;
+            bottom: 3 ;
+            transform:translateX(-40) ;
+            transition:bottom 2s left 2s;
+            background-color: rgb(255, 145, 0);
+          }
+        
+          .image:hover .background{
+            bottom: 45px;
+            width: 75%;
+            box-sizing: border-box;
+          }
+        
+          .image:hover .boy{
+            left: 1s;
+        
+          }
+          
+    </style>
+    <body style="background-color: antiquewhite;">
+        <div class="icone">
+            <nav>
+                <img src="l.2.0.png" class="logo">
+           <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="C:\Users\student\Desktop\tata.html" target="_blank">ABOUT ME</a></li>
+            <li><a href="https://gkfunda.com/awards-of-ratan-tata/">AWARDS</a></li>
+            <li><a href="https://www.tata.com/investors/companies" target="_blank">COMPANY</a></li>
+           </ul>
+           </nav>
+        </div>
+        <div id="head">
+            <h1><p><b>Hello I,M <span>RATAN TATA</span><br>
+                this is official portfolio abot tata companys web site to show all
+                <br>As per corporate shareholdings filed for June 30, 2017,<br> SIR RATAN TATA TRUST publicly<BR> holds 6 stocks with a net worth of over Rs. 382.7 Cr.<br>
+            </b></p></h1>
+            <a  href="#">Download CV</a>
+        </div>
+        <div class="image">
+            <img style="background-color: black;" src="background.jpg" class="student" >
+            <img src="tata.png" class="boy">
+        </div>
+       
+    </body>
+</html>
